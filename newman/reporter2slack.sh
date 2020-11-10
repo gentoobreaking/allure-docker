@@ -16,7 +16,7 @@ docker run -v /opt/newman-src:/etc/newman -v "${allure_results_folder}":/opt/all
 run "/etc/newman/${collection_name}" -e "/etc/newman/environments/${env_name}" \
 -r allure,slackmsg \
 --reporter-allure-export /opt/allure-results \
---reporter-slackmsg-webhookurl "https://hooks.slack.com/services/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" \
+--reporter-slackmsg-webhookurl "https://hooks.slack.com/services/T7NUD3U1W/BHNMVF202/xxxx" \
 --delay-request 500 --timeout 900000 --timeout-request 5000 --timeout-script 5000 \
 --reporter-cli-no-failures --reporter-cli-no-assertions --reporter-cli-no-console \
 --disable-unicode --color off --suppress-exit-code 1
