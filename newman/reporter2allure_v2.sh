@@ -9,8 +9,8 @@ export env_name='rb88_transaction_shslrbp4.funpo.com_1.0.0_env.json'
 export report_name='rb88_transaction_shslrbp4.funpo.com_1.0.0'
 export iterations_num='2'
 export html_type='full' # original , aggregated , full
-export allure_results_folder="/opt/allure-docker/projects/$(echo ${JOB_NAME}|sed 's|_|-|g')/results"
-export allure_reports_folder="/opt/allure-docker/projects/$(echo ${JOB_NAME}|sed 's|_|-|g')/reports"
+export allure_results_folder="/opt/allure-docker/projects/$(echo ${JOB_NAME}|sed 's|_|-|g'|sed 's|\.|-|g')/results"
+export allure_reports_folder="/opt/allure-docker/projects/$(echo ${JOB_NAME}|sed 's|_|-|g'|sed 's|\.|-|g')/reports"
 
 echo " - allure_results_folder:${allure_results_folder}"
 echo " - allure_reports_folder:${allure_reports_folder}"
