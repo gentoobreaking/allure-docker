@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "../1/index.html",
+  "reportName" : "rb88-transaction-shslrbp4-funpo-com-1.0.0",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 13
+  }
+} ]

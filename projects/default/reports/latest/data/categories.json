@@ -1,0 +1,121 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "check response body",
+      "children" : [ {
+        "name" : "Chk Ver",
+        "uid" : "24a2541401a4c8f6",
+        "parentUid" : "84cee19d33ce53730972cda4d759b774",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604989613623,
+          "stop" : 1604989614405,
+          "duration" : 782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Chk Ver",
+        "uid" : "d8d9d6b020088c37",
+        "parentUid" : "84cee19d33ce53730972cda4d759b774",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604989666716,
+          "stop" : 1604989667412,
+          "duration" : 696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Chk Ver",
+        "uid" : "d4d6f213957676cf",
+        "parentUid" : "84cee19d33ce53730972cda4d759b774",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991286862,
+          "stop" : 1604991287581,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Chk Ver",
+        "uid" : "1bb35e4f472d1412",
+        "parentUid" : "84cee19d33ce53730972cda4d759b774",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991553454,
+          "stop" : 1604991554536,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84cee19d33ce53730972cda4d759b774"
+    }, {
+      "name" : "Status code is 200",
+      "children" : [ {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "c1f96e4414a6bcdc",
+        "parentUid" : "2840b87938bcaaf7fef0d2068c20004e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604989623783,
+          "stop" : 1604989624357,
+          "duration" : 574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "9cf87ab017b4228b",
+        "parentUid" : "2840b87938bcaaf7fef0d2068c20004e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604989676988,
+          "stop" : 1604989677560,
+          "duration" : 572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "21620c3895720629",
+        "parentUid" : "2840b87938bcaaf7fef0d2068c20004e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991296976,
+          "stop" : 1604991297561,
+          "duration" : 585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "4b16ca78840c1049",
+        "parentUid" : "2840b87938bcaaf7fef0d2068c20004e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991564729,
+          "stop" : 1604991565560,
+          "duration" : 831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2840b87938bcaaf7fef0d2068c20004e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

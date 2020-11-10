@@ -1,0 +1,9 @@
+[ {
+  "name" : "Allure Docker Service UI",
+  "type" : "another",
+  "buildOrder" : 1,
+  "buildName" : "rb88-transaction-shslrbp4-funpo-com-1.0.0 #1",
+  "buildUrl" : "",
+  "reportName" : "rb88-transaction-shslrbp4-funpo-com-1.0.0",
+  "reportUrl" : "../1/index.html"
+} ]

@@ -1,0 +1,88 @@
+{
+  "uid" : "5e6045cd20cf0108",
+  "name" : "ChkComplete2_forID3_forFail",
+  "historyId" : "d2a3b84f8d486c33ce64a51ade33634f",
+  "time" : {
+    "start" : 1604989616782,
+    "stop" : 1604989617394,
+    "duration" : 612
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://shslrbp4.funpo.com/api/v1.0/checkComplete </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"checkComplete\": \"FAIL\",\r\n  \"serviceName\": \"TestService3_ln3n\",\r\n  \"sort\": 2,\r\n  \"transactionId\": \"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"transactionId\":\"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\",\"serviceName\":\"TestService3_ln3n\",\"checkComplete\":\"FAIL\",\"sort\":2} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://shslrbp4.funpo.com/api/v1.0/checkComplete </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"checkComplete\": \"FAIL\",\r\n  \"serviceName\": \"TestService3_ln3n\",\r\n  \"sort\": 2,\r\n  \"transactionId\": \"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"transactionId\":\"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\",\"serviceName\":\"TestService3_ln3n\",\"checkComplete\":\"FAIL\",\"sort\":2} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "check response body",
+      "time" : {
+        "start" : 1604989617392,
+        "stop" : 1604989617392,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1604989617392,
+        "stop" : 1604989617392,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c8f7e8d8ed0222c5",
+      "name" : "test_scrpt",
+      "source" : "c8f7e8d8ed0222c5.txt",
+      "type" : "text/plain",
+      "size" : 484
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Transaction-Log-Ctrl"
+  }, {
+    "name" : "feature",
+    "value" : "Transaction-Log-Ctrl"
+  }, {
+    "name" : "story",
+    "value" : "api/v1.0/checkComplete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e6045cd20cf0108.json",
+  "parameterValues" : [ ]
+}

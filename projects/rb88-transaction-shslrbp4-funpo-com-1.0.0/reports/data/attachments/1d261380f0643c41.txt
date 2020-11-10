@@ -1,0 +1,11 @@
+tests["Status code is 200"] = responseCode.code === 200;
+
+var strGetBody=JSON.parse(responseBody);
+
+pm.test('check response body', function() {
+    pm.expect(strGetBody).to.be.not.empty;
+    pm.expect(strGetBody.serviceName).to.eql(pm.environment.get("strTestServiceName2"));
+    pm.expect(strGetBody.sort).to.eql(pm.environment.get("intSort2"));
+    pm.expect(strGetBody.transactionId).to.eql(pm.environment.get("strID2"));
+    pm.expect(strGetBody.checkComplete).to.eql("SUCCESS");
+});

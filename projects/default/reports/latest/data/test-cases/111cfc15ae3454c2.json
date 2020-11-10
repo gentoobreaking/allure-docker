@@ -1,0 +1,88 @@
+{
+  "uid" : "111cfc15ae3454c2",
+  "name" : "get whole transactionLog process list",
+  "historyId" : "0804078478356c3b941f621e8d2caf65",
+  "time" : {
+    "start" : 1604991562713,
+    "stop" : 1604991564728,
+    "duration" : 2015
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/api/v1.0/currentTransactions/TestService4_tzlz_U79YMTHV4C555a7e6c-1264-43f9-8fa9-c9e6812f7afc_20201110145920 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"transactionId\":\"TestService4_tzlz_U79YMTHV4C555a7e6c-1264-43f9-8fa9-c9e6812f7afc_20201110145920\",\"serviceName\":\"TestService4_tzlz\",\"checkComplete\":\"FAIL\",\"rollbackApi\":\"http://www.google.com\",\"originData\":\"{\\\"name\\\":\\\"TestOri4_6a1v\\\"}\",\"rollbackStatus\":\"FAIL\",\"sort\":1,\"rollbackTag\":true,\"createTime\":1604991560726}] </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/api/v1.0/currentTransactions/TestService4_tzlz_U79YMTHV4C555a7e6c-1264-43f9-8fa9-c9e6812f7afc_20201110145920 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"transactionId\":\"TestService4_tzlz_U79YMTHV4C555a7e6c-1264-43f9-8fa9-c9e6812f7afc_20201110145920\",\"serviceName\":\"TestService4_tzlz\",\"checkComplete\":\"FAIL\",\"rollbackApi\":\"http://www.google.com\",\"originData\":\"{\\\"name\\\":\\\"TestOri4_6a1v\\\"}\",\"rollbackStatus\":\"FAIL\",\"sort\":1,\"rollbackTag\":true,\"createTime\":1604991560726}] </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "check response body",
+      "time" : {
+        "start" : 1604991564726,
+        "stop" : 1604991564726,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1604991564726,
+        "stop" : 1604991564726,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5d368a9591442832",
+      "name" : "test_scrpt",
+      "source" : "5d368a9591442832.txt",
+      "type" : "text/plain",
+      "size" : 496
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Transaction-Rec-Ctrl"
+  }, {
+    "name" : "feature",
+    "value" : "Transaction-Rec-Ctrl"
+  }, {
+    "name" : "story",
+    "value" : "api/v1.0/currentTransactions/{{strID4}}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "111cfc15ae3454c2.json",
+  "parameterValues" : [ ]
+}

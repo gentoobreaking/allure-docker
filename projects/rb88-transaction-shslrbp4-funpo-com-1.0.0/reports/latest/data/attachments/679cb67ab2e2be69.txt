@@ -1,0 +1,7 @@
+var strRndName,strRndServiceName;
+
+strRndName="TestOri1_"+("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4);
+strRndServiceName="TestService1_"+("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4);
+
+pm.environment.set("strOriTestName1",strRndName);
+pm.environment.set("strTestServiceName1",strRndServiceName);

@@ -1,0 +1,109 @@
+{
+  "uid" : "20dcddb7f7a8cefb",
+  "name" : "Chk Ver",
+  "historyId" : "3d399a59226f96e4e7795f17df937f99",
+  "time" : {
+    "start" : 1604991931908,
+    "stop" : 1604991935727,
+    "duration" : 3819
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/actuator/info </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"service-name\":\"transaction-service\",\"version\":\"1.2.0-soft\",\"api\":{\"transaction-record-controller\":[\"/api/v1.0/currentTransaction/{transactionId}/service/{serviceName}/sort/{sort}\",\"/api/v1.0/currentTransactions/{transactionId}\",\"/api/v1.0/record/serviceNameList\",\"/api/v1.0/transactionProcess/{transactionId}\",\"/api/v1.0/transactions\"],\"cache-controller\":[\"/api/v1.0/cache/resetRedis\"],\"transaction-log-controller\":[\"/api/v1.0/checkComplete\",\"/api/v1.0/checkCompleteForBatch\",\"/api/v1.0/transaction\"],\"status-controller\":[\"/\",\"/down\",\"/out\",\"/up\"],\"test-controller\":[\"/api/v1.0/test/rollback\"]}} </b> </pre> </p>",
+  "status" : "failed",
+  "statusMessage" : "check response body",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/actuator/info </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"service-name\":\"transaction-service\",\"version\":\"1.2.0-soft\",\"api\":{\"transaction-record-controller\":[\"/api/v1.0/currentTransaction/{transactionId}/service/{serviceName}/sort/{sort}\",\"/api/v1.0/currentTransactions/{transactionId}\",\"/api/v1.0/record/serviceNameList\",\"/api/v1.0/transactionProcess/{transactionId}\",\"/api/v1.0/transactions\"],\"cache-controller\":[\"/api/v1.0/cache/resetRedis\"],\"transaction-log-controller\":[\"/api/v1.0/checkComplete\",\"/api/v1.0/checkCompleteForBatch\",\"/api/v1.0/transaction\"],\"status-controller\":[\"/\",\"/down\",\"/out\",\"/up\"],\"test-controller\":[\"/api/v1.0/test/rollback\"]}} </b> </pre> </p>",
+    "status" : "failed",
+    "statusMessage" : "check response body",
+    "steps" : [ {
+      "name" : "check response body",
+      "time" : {
+        "start" : 1604991935722,
+        "stop" : 1604991935722,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status code is 200 ",
+      "time" : {
+        "start" : 1604991935723,
+        "stop" : 1604991935723,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Now getting version is : 1.2.0-soft",
+      "time" : {
+        "start" : 1604991935723,
+        "stop" : 1604991935723,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8c3590daccef58ea",
+      "name" : "test_scrpt",
+      "source" : "8c3590daccef58ea.txt",
+      "type" : "text/plain",
+      "size" : 369
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Verify Ver"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Ver"
+  }, {
+    "name" : "story",
+    "value" : "actuator/info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "20dcddb7f7a8cefb.json",
+  "parameterValues" : [ ]
+}

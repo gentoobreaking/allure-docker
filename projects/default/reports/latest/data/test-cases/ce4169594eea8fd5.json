@@ -1,0 +1,94 @@
+{
+  "uid" : "ce4169594eea8fd5",
+  "name" : "CreateTransactionID2",
+  "historyId" : "8c90a5d51aa716d98bab10b2216d64db",
+  "time" : {
+    "start" : 1604989615001,
+    "stop" : 1604989615587,
+    "duration" : 586
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://shslrbp4.funpo.com/api/v1.0/transaction </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"expiredSeconds\": 240,\r\n  \"originData\": {\r\n    \"name\": \"TestOri2_ntql\"\r\n  },\r\n  \"rollbackApi\": \"http://www.google.com\",\r\n  \"rollbackTag\": true,\r\n  \"serviceName\": \"TestService2_qigm\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"transactionId\":\"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\",\"serviceName\":\"TestService2_qigm\",\"checkComplete\":\"START\",\"rollbackApi\":\"http://www.google.com\",\"originData\":{\"name\":\"TestOri2_ntql\"},\"rollbackTag\":true,\"sort\":1} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://shslrbp4.funpo.com/api/v1.0/transaction </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"expiredSeconds\": 240,\r\n  \"originData\": {\r\n    \"name\": \"TestOri2_ntql\"\r\n  },\r\n  \"rollbackApi\": \"http://www.google.com\",\r\n  \"rollbackTag\": true,\r\n  \"serviceName\": \"TestService2_qigm\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"transactionId\":\"TestService2_qigm_U79YRREHGFaceef17c-1414-4bfa-8925-490f8427f5c7_20201110142655\",\"serviceName\":\"TestService2_qigm\",\"checkComplete\":\"START\",\"rollbackApi\":\"http://www.google.com\",\"originData\":{\"name\":\"TestOri2_ntql\"},\"rollbackTag\":true,\"sort\":1} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "check response body",
+      "time" : {
+        "start" : 1604989615584,
+        "stop" : 1604989615584,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1604989615584,
+        "stop" : 1604989615584,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "89357a1e68708bce",
+      "name" : "pre_request",
+      "source" : "89357a1e68708bce.txt",
+      "type" : "text/plain",
+      "size" : 345
+    }, {
+      "uid" : "66334d2a0cefd66a",
+      "name" : "test_scrpt",
+      "source" : "66334d2a0cefd66a.txt",
+      "type" : "text/plain",
+      "size" : 516
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Transaction-Log-Ctrl"
+  }, {
+    "name" : "feature",
+    "value" : "Transaction-Log-Ctrl"
+  }, {
+    "name" : "story",
+    "value" : "api/v1.0/transaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce4169594eea8fd5.json",
+  "parameterValues" : [ ]
+}

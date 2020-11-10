@@ -1,0 +1,131 @@
+[ {
+  "uid" : "ec0e592ad6fc7d96",
+  "name" : "CreateTransactionID3_SameTransactionID2",
+  "time" : {
+    "start" : 1604991937218,
+    "stop" : 1604991937811,
+    "duration" : 593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c515c9ce2c0df61",
+  "name" : "CreateTransactionID4_forTest",
+  "time" : {
+    "start" : 1604991939614,
+    "stop" : 1604991940205,
+    "duration" : 591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55441a01ec12b481",
+  "name" : "ChkComplete1_forID2_forSuccess",
+  "time" : {
+    "start" : 1604991937815,
+    "stop" : 1604991938407,
+    "duration" : 592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "303c7b0c57fc0524",
+  "name" : "ChkCompleteForBatch",
+  "time" : {
+    "start" : 1604991939027,
+    "stop" : 1604991939611,
+    "duration" : 584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e94cc3c88dd2ce5f",
+  "name" : "get whole transactionLog process list",
+  "time" : {
+    "start" : 1604991943767,
+    "stop" : 1604991946257,
+    "duration" : 2490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc76131d973a6cc5",
+  "name" : "get transactionLog by multiple conditions",
+  "time" : {
+    "start" : 1604991946259,
+    "stop" : 1604991946835,
+    "duration" : 576
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "35178ced8a0bad67",
+  "name" : "ChkComplete2_forID3_forFail",
+  "time" : {
+    "start" : 1604991938409,
+    "stop" : 1604991939025,
+    "duration" : 616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a85e6a7228cc4da",
+  "name" : "get one of transactionLog process",
+  "time" : {
+    "start" : 1604991941726,
+    "stop" : 1604991943764,
+    "duration" : 2038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "803c8da792e3d94b",
+  "name" : "CreateTransactionID1",
+  "time" : {
+    "start" : 1604991935730,
+    "stop" : 1604991936320,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e08ccda8d3143ed0",
+  "name" : "get transactionLog by multiple conditions _ForCurPageIs0",
+  "time" : {
+    "start" : 1604991946838,
+    "stop" : 1604991947770,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3f95cb70484138b",
+  "name" : "CreateTransactionID2",
+  "time" : {
+    "start" : 1604991936323,
+    "stop" : 1604991937215,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b86718deec574cdc",
+  "name" : "ChkComplete_forID4_forFail",
+  "time" : {
+    "start" : 1604991940208,
+    "stop" : 1604991941723,
+    "duration" : 1515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "463dd635ad4eff0",
+  "name" : "Chk Ver",
+  "time" : {
+    "start" : 1604991931908,
+    "stop" : 1604991935727,
+    "duration" : 3819
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

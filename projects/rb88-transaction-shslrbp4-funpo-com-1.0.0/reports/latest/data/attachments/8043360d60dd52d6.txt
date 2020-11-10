@@ -1,0 +1,16 @@
+tests["Status code is 200"] = responseCode.code === 200;
+
+var strGetBody=JSON.parse(responseBody),intCount=0;
+
+for(i=0; i<strGetBody.records.length ; i++){
+    if (strGetBody.records[i].checkComplete=="FAIL"){
+        intCount+=1;
+    }
+}
+
+//tests["incount: "+intCount]=true;
+
+pm.test('check response body', function() {
+    pm.expect(strGetBody).to.be.not.empty;
+    pm.expect(intCount).to.eql(1);
+});

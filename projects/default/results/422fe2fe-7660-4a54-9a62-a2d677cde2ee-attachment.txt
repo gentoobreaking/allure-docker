@@ -1,0 +1,2 @@
+//var intDelay=10;
+//setTimeout(function(){}, [intDelay*1000]);

@@ -1,0 +1,131 @@
+[ {
+  "uid" : "e5d78459a265b7bb",
+  "name" : "CreateTransactionID1",
+  "time" : {
+    "start" : 1604991935730,
+    "stop" : 1604991936320,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13bbe19a73e7aa7d",
+  "name" : "CreateTransactionID3_SameTransactionID2",
+  "time" : {
+    "start" : 1604991937218,
+    "stop" : 1604991937811,
+    "duration" : 593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a86ef50d9b8b402e",
+  "name" : "get whole transactionLog process list",
+  "time" : {
+    "start" : 1604991943767,
+    "stop" : 1604991946257,
+    "duration" : 2490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d539eb1d59f6188",
+  "name" : "CreateTransactionID4_forTest",
+  "time" : {
+    "start" : 1604991939614,
+    "stop" : 1604991940205,
+    "duration" : 591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5e10c575ecf3736",
+  "name" : "ChkComplete_forID4_forFail",
+  "time" : {
+    "start" : 1604991940208,
+    "stop" : 1604991941723,
+    "duration" : 1515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20dcddb7f7a8cefb",
+  "name" : "Chk Ver",
+  "time" : {
+    "start" : 1604991931908,
+    "stop" : 1604991935727,
+    "duration" : 3819
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e0fd224413b1c48",
+  "name" : "get one of transactionLog process",
+  "time" : {
+    "start" : 1604991941726,
+    "stop" : 1604991943764,
+    "duration" : 2038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12cd692a4e9b0fed",
+  "name" : "CreateTransactionID2",
+  "time" : {
+    "start" : 1604991936323,
+    "stop" : 1604991937215,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7e586308d09e2b5",
+  "name" : "ChkComplete1_forID2_forSuccess",
+  "time" : {
+    "start" : 1604991937815,
+    "stop" : 1604991938407,
+    "duration" : 592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa7987ebf54a31c",
+  "name" : "ChkComplete2_forID3_forFail",
+  "time" : {
+    "start" : 1604991938409,
+    "stop" : 1604991939025,
+    "duration" : 616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7673528f7504e581",
+  "name" : "ChkCompleteForBatch",
+  "time" : {
+    "start" : 1604991939027,
+    "stop" : 1604991939611,
+    "duration" : 584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "692254f1e095e53a",
+  "name" : "get transactionLog by multiple conditions _ForCurPageIs0",
+  "time" : {
+    "start" : 1604991946838,
+    "stop" : 1604991947770,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee1f74d5ae33c13b",
+  "name" : "get transactionLog by multiple conditions",
+  "time" : {
+    "start" : 1604991946259,
+    "stop" : 1604991946835,
+    "duration" : 576
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "check response body",
+      "children" : [ {
+        "name" : "Chk Ver",
+        "uid" : "20dcddb7f7a8cefb",
+        "parentUid" : "84cee19d33ce53730972cda4d759b774",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991931908,
+          "stop" : 1604991935727,
+          "duration" : 3819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84cee19d33ce53730972cda4d759b774"
+    }, {
+      "name" : "Status code is 200",
+      "children" : [ {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "ee1f74d5ae33c13b",
+        "parentUid" : "2840b87938bcaaf7fef0d2068c20004e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991946259,
+          "stop" : 1604991946835,
+          "duration" : 576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2840b87938bcaaf7fef0d2068c20004e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

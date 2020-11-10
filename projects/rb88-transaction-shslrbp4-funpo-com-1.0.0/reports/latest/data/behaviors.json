@@ -1,0 +1,222 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verify Ver",
+    "children" : [ {
+      "name" : "actuator/info",
+      "children" : [ {
+        "name" : "Chk Ver",
+        "uid" : "463dd635ad4eff0",
+        "parentUid" : "2c7e59f1dd9bdb6d45f8b40ce1a9717d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991931908,
+          "stop" : 1604991935727,
+          "duration" : 3819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c7e59f1dd9bdb6d45f8b40ce1a9717d"
+    } ],
+    "uid" : "650d603f06ed347f9c4719579c112f8b"
+  }, {
+    "name" : "Transaction-Log-Ctrl",
+    "children" : [ {
+      "name" : "api/v1.0/transaction",
+      "children" : [ {
+        "name" : "CreateTransactionID1",
+        "uid" : "803c8da792e3d94b",
+        "parentUid" : "df83177eae6c578346650be79ce5ca64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991935730,
+          "stop" : 1604991936320,
+          "duration" : 590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CreateTransactionID2",
+        "uid" : "d3f95cb70484138b",
+        "parentUid" : "df83177eae6c578346650be79ce5ca64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991936323,
+          "stop" : 1604991937215,
+          "duration" : 892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CreateTransactionID3_SameTransactionID2",
+        "uid" : "ec0e592ad6fc7d96",
+        "parentUid" : "df83177eae6c578346650be79ce5ca64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991937218,
+          "stop" : 1604991937811,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df83177eae6c578346650be79ce5ca64"
+    }, {
+      "name" : "api/v1.0/checkComplete",
+      "children" : [ {
+        "name" : "ChkComplete1_forID2_forSuccess",
+        "uid" : "55441a01ec12b481",
+        "parentUid" : "d85f61b2e0fd95d96b46190ea60c31b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991937815,
+          "stop" : 1604991938407,
+          "duration" : 592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ChkComplete2_forID3_forFail",
+        "uid" : "35178ced8a0bad67",
+        "parentUid" : "d85f61b2e0fd95d96b46190ea60c31b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991938409,
+          "stop" : 1604991939025,
+          "duration" : 616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d85f61b2e0fd95d96b46190ea60c31b4"
+    }, {
+      "name" : "api/v1.0/checkCompleteForBatch",
+      "children" : [ {
+        "name" : "ChkCompleteForBatch",
+        "uid" : "303c7b0c57fc0524",
+        "parentUid" : "724b4e13ce776e3d5ccc32e066b7e6d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991939027,
+          "stop" : 1604991939611,
+          "duration" : 584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "724b4e13ce776e3d5ccc32e066b7e6d5"
+    } ],
+    "uid" : "4f541037709a9379a4a3e681ab1de904"
+  }, {
+    "name" : "Transaction-Rec-Ctrl",
+    "children" : [ {
+      "name" : "api/v1.0/transaction",
+      "children" : [ {
+        "name" : "CreateTransactionID4_forTest",
+        "uid" : "1c515c9ce2c0df61",
+        "parentUid" : "9b8de16de5e40913efc91efb28121ba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991939614,
+          "stop" : 1604991940205,
+          "duration" : 591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b8de16de5e40913efc91efb28121ba3"
+    }, {
+      "name" : "api/v1.0/checkComplete",
+      "children" : [ {
+        "name" : "ChkComplete_forID4_forFail",
+        "uid" : "b86718deec574cdc",
+        "parentUid" : "cb104309d9e0a948335fab1a6fb6dc4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991940208,
+          "stop" : 1604991941723,
+          "duration" : 1515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb104309d9e0a948335fab1a6fb6dc4f"
+    }, {
+      "name" : "api/v1.0/currentTransaction/{{strID4}}/service/{{strTestServiceName4}}/sort/{{intSort4}}",
+      "children" : [ {
+        "name" : "get one of transactionLog process",
+        "uid" : "4a85e6a7228cc4da",
+        "parentUid" : "0364e1b7b3d8f6dc285e0e6e3abd4cf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991941726,
+          "stop" : 1604991943764,
+          "duration" : 2038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0364e1b7b3d8f6dc285e0e6e3abd4cf5"
+    }, {
+      "name" : "api/v1.0/currentTransactions/{{strID4}}",
+      "children" : [ {
+        "name" : "get whole transactionLog process list",
+        "uid" : "e94cc3c88dd2ce5f",
+        "parentUid" : "95dd531b4a70d1dafd02cf62bd9e2e5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991943767,
+          "stop" : 1604991946257,
+          "duration" : 2490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95dd531b4a70d1dafd02cf62bd9e2e5f"
+    }, {
+      "name" : "api/v1.0/transactions",
+      "children" : [ {
+        "name" : "get transactionLog by multiple conditions",
+        "uid" : "cc76131d973a6cc5",
+        "parentUid" : "79fe844be160cdfbce925c880c879621",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604991946259,
+          "stop" : 1604991946835,
+          "duration" : 576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "get transactionLog by multiple conditions _ForCurPageIs0",
+        "uid" : "e08ccda8d3143ed0",
+        "parentUid" : "79fe844be160cdfbce925c880c879621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991946838,
+          "stop" : 1604991947770,
+          "duration" : 932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79fe844be160cdfbce925c880c879621"
+    } ],
+    "uid" : "5ec52db435f00bbeb4e6a4d18f42043a"
+  } ]
+}

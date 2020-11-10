@@ -1,0 +1,9 @@
+tests["Status code is 200 "] = responseCode.code === 200;
+
+pm.test("check response body",function(){
+    var strGetBody=JSON.parse(responseBody);
+    pm.expect(strGetBody).to.be.not.empty;
+    pm.expect(pm.response.text()).to.include("version");
+    tests["Now getting version is : "+strGetBody.version]=true;
+    pm.expect(strGetBody.version).to.eql("1.0.0-soft");
+});

@@ -1,0 +1,79 @@
+{
+  "uid" : "4b16ca78840c1049",
+  "name" : "get transactionLog by multiple conditions",
+  "historyId" : "dfc0ce0df1c77deb5938476fbb4a3833",
+  "time" : {
+    "start" : 1604991564729,
+    "stop" : 1604991565560,
+    "duration" : 831
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/api/v1.0/transactions </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"service\":\"transaction-service\",\"error\":{\"message\":\"Required Timestamp parameter \\u0027fromCreateTime\\u0027 is not present\",\"code\":9999}} </b> </pre> </p>",
+  "status" : "failed",
+  "statusMessage" : "Status code is 200",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://shslrbp4.funpo.com/api/v1.0/transactions </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"service\":\"transaction-service\",\"error\":{\"message\":\"Required Timestamp parameter \\u0027fromCreateTime\\u0027 is not present\",\"code\":9999}} </b> </pre> </p>",
+    "status" : "failed",
+    "statusMessage" : "Status code is 200",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1604991565558,
+        "stop" : 1604991565558,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d1d5eb015d0556a3",
+      "name" : "test_scrpt",
+      "source" : "d1d5eb015d0556a3.txt",
+      "type" : "text/plain",
+      "size" : 402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Transaction-Rec-Ctrl"
+  }, {
+    "name" : "feature",
+    "value" : "Transaction-Rec-Ctrl"
+  }, {
+    "name" : "story",
+    "value" : "api/v1.0/transactions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b16ca78840c1049.json",
+  "parameterValues" : [ ]
+}
