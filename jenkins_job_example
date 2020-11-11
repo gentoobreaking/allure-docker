@@ -1,0 +1,55 @@
+#!/bin/bash
+
+echo " - JOB Name:${JOB_NAME}"
+export timestamp=$(date "+%Y%m%d_%H%M")
+export postman_name="$(echo ${JOB_NAME}|sed 's|allure_||g')"
+export collection_name="${postman_name}_c.json"
+export env_name="${postman_name}_env.json"
+export report_name="${postman_name}.html"
+
+export report_cli_url="${BUILD_URL}/consoleText"
+export report_cli_local="${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log"
+
+echo " - Postman name:${postman_name}"
+echo " - Collection filename:${collection_name}"
+echo " - Env filename:${env_name}"
+echo " - Report filename:${report_name}"
+echo " - CLI report url:${report_cli_url}"
+echo " - CLI report local:${report_cli_local}"
+export allure_results_folder="/opt/newman-src/reports/allure_projects/$(echo ${postman_name}|sed 's|_|-|g'|sed 's|\.|-|g')/results"
+export allure_reports_folder="/opt/newman-src/reports/allure_projects/$(echo ${postman_name}|sed 's|_|-|g'|sed 's|\.|-|g')/reports"
+
+echo " - allure_results_folder:${allure_results_folder}"
+echo " - allure_reports_folder:${allure_reports_folder}"
+
+[ ! -d "${allure_results_folder}" ] && mkdir -p "${allure_results_folder}"
+[ ! -d "${allure_reports_folder}" ] && mkdir -p "${allure_reports_folder}"
+
+sudo docker run -v /opt/newman-src:/etc/newman -v "${allure_results_folder}":/opt/allure-results \
+--name "${JOB_NAME}" --rm postman_checks:v0.5 \
+run "/etc/newman/${collection_name}" -e "/etc/newman/environments/${env_name}" \
+-r allure \
+--reporter-allure-export /opt/allure-results
+
+echo " - send slack"
+
+#export my_public_ip="$(curl -s v4.ifconfig.co)"
+export my_public_ip="52.194.85.24"
+export my_public_url="${my_public_ip}:8888"
+export my_report_url="http://${my_public_url}/${postman_name}_${timestamp}.html"
+
+
+export brand_name="$(echo ${JOB_NAME}|awk -F'_' '{print $2}')"
+echo " - brand name:${brand_name}"
+export webhook="$(cat /opt/newman-src/monitor.list|grep ${brand_name}|awk '{print $2}')"
+echo " - webhook:${webhook}"
+
+#curl -s -X POST --data-urlencode 'payload={"text": "'"${postman_name}"' <'"${my_report_url}"' |Click here> for details! :```'"${report_output}"'```"}' "${webhook}"
+
+[ ! -d ./allure-results ] && ln -s "${allure_results_folder}" ./allure-results
+[ -d ./allure-report ] && rm -rf ./allure-report
+[ -d ./allure-results/history ] && rm -f ./allure-results/history/*.json
+
+echo " - Finish"
+
+# --- END --- #
